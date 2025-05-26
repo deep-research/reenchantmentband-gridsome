@@ -53,17 +53,17 @@ export default {
         [
           {
             title: "They'll Come For You (Short Version)",
-            url: "https://victorslibrary.s3.us-east-2.amazonaws.com/music/Theyll+Come+For+You/They'll+Come+For+You+(Short+Version).mp3",
+            url: "https://victorsarchive.s3.us-east-2.amazonaws.com/music/Theyll+Come+For+You/They'll+Come+For+You+(Short+Version).mp3",
             page: "/theyll-come-for-you"
           },
           {
             title: "Apathy = Freedom (Short Version)",
-            url: "https://victorslibrary.s3.us-east-2.amazonaws.com/music/Apathy+%3D+Freedom/Apathy+%3D+Freedom+(Short+Version).mp3",
+            url: "https://victorsarchive.s3.us-east-2.amazonaws.com/music/Apathy+%3D+Freedom/Apathy+%3D+Freedom+(Short+Version).mp3",
             page: "/apathy-equals-freedom"
           },
           {
             title: "The Ritual (Short Version)",
-            url: "https://victorslibrary.s3.us-east-2.amazonaws.com/music/The+Ritual/The+Ritual+(Short+Version).mp3",
+            url: "https://victorsarchive.s3.us-east-2.amazonaws.com/music/The+Ritual/The+Ritual+(Short+Version).mp3",
             page: "/the-ritual"
           }
         ]

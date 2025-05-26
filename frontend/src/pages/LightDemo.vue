@@ -53,17 +53,17 @@ export default {
         [
           {
             title: "They'll Come For You",
-            url: "https://victorslibrary.s3.amazonaws.com/music/Theyll+Come+For+You/Theyll+Come+For+You+(Mermaid+Version).mp3",
+            url: "https://victorsarchive.s3.amazonaws.com/music/Theyll+Come+For+You/Theyll+Come+For+You+(Mermaid+Version).mp3",
             page: "/theyll-come-for-you"
           },
           {
             title: "Apathy = Freedom",
-            url: "https://victorslibrary.s3.amazonaws.com/music/Apathy+%3D+Freedom/Apathy+%3D+Freedom.mp3",
+            url: "https://victorsarchive.s3.amazonaws.com/music/Apathy+%3D+Freedom/Apathy+%3D+Freedom.mp3",
             page: "/apathy-equals-freedom"
           },
           {
             title: "Cloudships From Magonia",
-            url: "https://victorslibrary.s3.us-east-2.amazonaws.com/music/Cloudships+From+Magonia/Cloudships+from+Magonia.mp3",
+            url: "https://victorsarchive.s3.us-east-2.amazonaws.com/music/Cloudships+From+Magonia/Cloudships+from+Magonia.mp3",
             page: "/cloudships-from-magonia"
           }
         ]
