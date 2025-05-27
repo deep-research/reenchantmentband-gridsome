@@ -31,7 +31,15 @@ module.exports = {
       options: {
         shouldPurge: false
       }
-    }
+    },
+    {
+        use: 'gridsome-plugin-gtag',
+        options: {
+            config: {
+                id: G-LGV0D87JL3,
+            },
+        },
+    },
   ],
   templates: {
     StrapiSongs: [

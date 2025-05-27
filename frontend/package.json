@@ -13,6 +13,7 @@
     "babel-runtime": "^6.26.0",
     "gh-pages": "^2.2.0",
     "gridsome": "^0.7.2",
+    "gridsome-plugin-gtag": "^0.1.10",
     "gridsome-plugin-tailwindcss": "^2.2.48",
     "typeface-amiko": "^0.0.72",
     "typeface-gilda-display": "^0.0.72",

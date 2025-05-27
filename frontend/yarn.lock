@@ -4367,6 +4367,13 @@ graphql@^14.4.2:
   dependencies:
     iterall "^1.2.2"
 
+gridsome-plugin-gtag@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-gtag/-/gridsome-plugin-gtag-0.1.10.tgz#99ab1b494a874a996b08ee7073766c8132614d59"
+  integrity sha512-/T1snhRRO4akDx6Hi4rYpMtXo8jo8uEf0brHbOI6bbb+vg7XTFucEAOKklUdKFTLKFAwH1VIQ+AZajU88U6iHg==
+  dependencies:
+    vue-gtag "^1.10.0"
+
 gridsome-plugin-tailwindcss@^2.2.48:
   version "2.2.48"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-tailwindcss/-/gridsome-plugin-tailwindcss-2.2.48.tgz#26acf6e70e8a2a43c54b970b72aebedb57af59fa"
@@ -9432,6 +9439,11 @@ vue-clickaway@^2.2.2:
   integrity sha512-25SpjXKetL06GLYoLoC8pqAV6Cur9cQ//2g35GRFBV4FgoljbZZjTINR8g2NuVXXDMLSUXaKx5dutgO4PaDE7A==
   dependencies:
     loose-envify "^1.2.0"
+
+vue-gtag@^1.10.0:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-1.16.1.tgz#edb2f20ab4f6c4d4d372dfecf8c1fcc8ab890181"
+  integrity sha512-5vs0pSGxdqrfXqN1Qwt0ZFXG0iTYjRMu/saddc7QIC5yp+DKgjWQRpGYVa7Pq+KbThxwzzMfo0sGi7ISa6NowA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
