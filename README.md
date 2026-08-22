@@ -9,4 +9,7 @@ docker stop (docker ps -q)
 # 3. Stop the project
 docker compose down
 
-# 4. Servers will be at http://localhost:1337/admin and http://localhost:8080
+# 4. Deploy frontend to GitHub Pages
+docker compose run --rm frontend yarn deploy
+
+# 5. Servers will be at http://localhost:1337/admin and http://localhost:8080
