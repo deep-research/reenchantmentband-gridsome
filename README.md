@@ -1,4 +1,4 @@
-# victors-library
+# reenchantment
 
 # 1. Build and run the containers with Docker Compose
 docker compose up --build
