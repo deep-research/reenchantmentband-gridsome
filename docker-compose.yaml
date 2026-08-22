@@ -20,6 +20,8 @@ services:
       - "8080:8080"
     volumes:
       - ./frontend:/app
+      - .git:/app/.git   # <-- Maps the root git repo so the container can access 'origin'
+      - C:\Users\Victor\.ssh:/root/.ssh:ro   # Maps the whole .ssh folder
       - /app/node_modules
     environment:
       - PORT=8080
