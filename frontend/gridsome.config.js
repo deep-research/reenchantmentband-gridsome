@@ -15,7 +15,7 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        apiURL: 'http://localhost:1337',
+        apiURL: 'http://strapi:1337',
         queryLimit: 1000, // Defaults to 100
         contentTypes: ['songs', 'recordings', 'genres', 'videos'],
         // Possibility to login with a Strapi user,

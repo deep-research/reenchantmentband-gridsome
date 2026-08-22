@@ -1,0 +1,29 @@
+services:
+  strapi:
+    build: .
+    ports:
+      - "1337:1337"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: yarn develop
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:1337', (res) => { process.exit(res.statusCode === 200 ? 0 : 1); }).on('error', () => process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - PORT=8080
+    command: yarn develop --host 0.0.0.0
+    depends_on:
+      strapi:
+        condition: service_healthy
