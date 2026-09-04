@@ -49,10 +49,9 @@
             <h2>Links</h2>
             <ul class="mb-5">
               <li><a class="no-underline hover:underline" href="https://victorsarchive.com/" target="_blank">Victor's Archive (New Version of This Website)</a></li>
-              <li><a class="no-underline hover:underline" href="https://victorfisher.music/" target="_blank">Victor's Music Page</a></li>
               <li><a class="no-underline hover:underline" href="https://reenchantment.bandcamp.com/" target="_blank">Bandcamp</a></li>
               <li><a class="no-underline hover:underline" href="https://www.youtube.com/@reenchantment/" target="_blank">YouTube</a></li>
-              <li><a class="no-underline hover:underline" href="https://twitter.com/magicrockmusic/" target="_blank">Twitter</a></li>
+              <li><a class="no-underline hover:underline" href="https://x.com/hypnotic_rock" target="_blank">Twitter</a></li>
               <li><a class="no-underline hover:underline" href="https://www.facebook.com/reenchantmentmusic/" target="_blank">Facebook</a></li>
               <li><a class="no-underline hover:underline" href="https://www.instagram.com/reenchantmentmusic/" target="_blank">Instagram</a></li>
             </ul>
