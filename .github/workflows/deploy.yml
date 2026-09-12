@@ -13,6 +13,11 @@ jobs:
         with:
           ref: master
 
+      - name: Prepare docker-compose for Linux runner
+        run: |
+          # Remove Windows-specific volume mapping for Linux CI runner
+          sed -i '/C:\\Users/d' docker-compose.yml
+
       - name: Build via Docker Compose
         run: |
           docker compose run --rm frontend yarn install
