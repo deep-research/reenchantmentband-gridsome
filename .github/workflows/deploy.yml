@@ -23,8 +23,13 @@ jobs:
 
       - name: Build via Docker Compose
         run: |
-          docker compose run --rm frontend yarn install
-          docker compose run --rm frontend yarn build
+          docker compose run --name temp-frontend-build frontend yarn install
+          docker compose run --name temp-frontend-build frontend yarn build
+
+      - name: Extract build files to runner workspace
+        run: |
+          docker cp temp-frontend-build:/app/dist ./dist
+          docker rm temp-frontend-build
 
       - name: Fix dist folder permissions
         run: sudo chown -R $USER:$USER dist
