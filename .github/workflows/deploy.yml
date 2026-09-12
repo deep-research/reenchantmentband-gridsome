@@ -23,8 +23,7 @@ jobs:
 
       - name: Build via Docker Compose
         run: |
-          docker compose run --name temp-frontend-build frontend yarn install
-          docker compose run --name temp-frontend-build frontend yarn build
+          docker compose run --name temp-frontend-build frontend sh -c "yarn install && yarn build"
 
       - name: Extract build files to runner workspace
         run: |
