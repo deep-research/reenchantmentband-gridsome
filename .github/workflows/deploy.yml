@@ -15,8 +15,11 @@ jobs:
 
       - name: Prepare docker-compose for Linux runner
         run: |
-          # Remove Windows-specific volume mapping for Linux CI runner
-          sed -i '/C:\\Users/d' docker-compose.yml
+          if [ -f docker-compose.yml ]; then
+            sed -i '/C:\\Users/d' docker-compose.yml
+          elif [ -f docker-compose.yaml ]; then
+            sed -i '/C:\\Users/d' docker-compose.yaml
+          fi
 
       - name: Build via Docker Compose
         run: |
